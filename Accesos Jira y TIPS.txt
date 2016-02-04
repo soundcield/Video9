@@ -1,0 +1,126 @@
+Jira
+
+https://biidcloud.atlassian.net
+
+dbarto@test-cloud.com
+
+Jeronimo2256
+
+
+
+WIKI
+
+http://deploy-biid.cloudapp.net/doku.php
+
+dbarto
+
+Jeronimo2256
+
+
+SLACK
+
+https://biid.slack.com
+
+dbarto@test-cloud.com
+
+Jeronimo15
+
+
+Jenkins
+
+http://deploy-biid.cloudapp.net/jenkins/login?from=%2Fjenkins
+
+dbarto
+
+
+
+
+Android phone (Samsung)
+
+Unlock: 2994 (para todos el mismo)
+
+Código de activación sin no se recibe SMS
+
+13579
+
+CA de test
+
+Adjunto certificado de operador del entorno de test. La contraseña del P12 es  f1rm4@pr0 y la 
+
+URL de la RA es
+
+Adjunto tb. los certificados de la jerarquía de test necesario para que os funcione el de 
+
+operador.
+
+Cuando os vaya bien, subo un momento y miramos el entorno, aunque ahora no hay 
+
+nada que mostrar ...
+
+BitBucket.org 
+
+user:  diegobarto
+
+user for access:    dbarto@test-cloud.com
+
+pass for access:    Jeronimo15
+
+
+------------------------------------
+
+Para entrar en private admin
+https://dev.biid.com/biid-ridm/private/index.jsf
+
+https://ridm.firmaprofesional.com/idbcn/private/index.jsf
+
+
+- Queries Jira
+project = 10001   AND type="Bug" AND reporter= currentUser() and status="Ready for Testing"
+project = 10001   AND type="Bug" AND reporter= dbarto and status="Ready for Testing"
+project = 10001   AND type="Bug" AND reporter= dbarto OR reporter= currentUser() And status= "Ready for Testing"
+project = "Ajuntament Barcelona - MobileID" AND executionStatus !=UNEXECUTED
+
+
+
+- SSH Tunnel
+ssh -D 8080 -C -N biidvpn@deploy-biid.cloudapp.net
+ssh -D 9999 -C -N biidvpn@deploy-biid.cloudapp.net$B110uP#
+
+User: biidvpn
+Pass: $B110uP#
+deploy-biid.cloudapp.net	
+
+------------------------------------------
+
+- Conectar al server por ssh BIID
+ssh biid@dev.biid.com    pass: *Biid123
+tail -f -n 200 /opt/apache.../logs/catalina.out
+
+- Conectar al server por ssh FirmaMobile
+ssh biid@int.firmamobile.com   passw: @b11D 
+
+- Conectar por SSH MObileID  / pre.firmamobile.com (Ha cambiado de la wiki)
+ssh biid@pre.firmamobile.com  (PRE)
+passw: @b11D
+
+
+- Jenkins build
+http://deploy-biid.cloudapp.net/jenkins/view/Dev%20Environment/job/ridm-dev/56/com.biid$biid-ridm/
+
+- Mensaje notificacion solo en PRE firmaMobile and DEMO
+
+- PASSW iphone 6 : 1111
+  PASSW iphone 4 : 2994
+
+- Comandos LINUX
+tail -f -n 300 catalina.out 
+
+/---------------------
+- Acceso SQL
+    Acceso BBDD Biid DEV
+     user> biid_external
+     passw > *Biid123
+
+    Acceso BBDD biid INT
+      user> biid 
+      passw> *Biid123

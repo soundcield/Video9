@@ -1,0 +1,163 @@
+/*                                          Definiciones de estilos dependientes de colores/secciones
+------------------------------------------------------------------------------------------------------
+*/
+
+/*------ Violet - Formació Tecnològica per Àrees Temàtiques -----------*/
+.violet h1,
+.violet h2,
+.event-form span.violet {
+	color:#92278f;
+}
+#home .tab.violet,
+#llistat-activitats .tab.violet {
+    border-color:#92278f;
+}
+#home .tabs li.violet:hover,
+#llistat-activitats .tabs li.violet:hover,
+#home .tabs li.violet.active,
+#llistat-activitats .tabs li.violet.active,
+.violet .tab-description {
+    background:#92278f;
+}
+.violet .activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco-mini_tcm64-19619.png") no-repeat scroll 0 -4px;
+}
+.violet .activities-items-column .activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco-mini_tcm64-19619.png") no-repeat scroll 16px -4px; /* tariro */
+}
+.violet .large-activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco_tcm64-16970.png") no-repeat scroll 0 -256px;
+}
+.violet ul#activitats h2 a.active { /* tariro */
+	background: url("/cibernarium/images/cat/panel-arrow-on_tcm64-16966.png") no-repeat 0 0;
+	color:#92278f;
+}
+
+/*------ Teal - Formació Tecnològica per Sectors Professionales ------*/
+.teal h1,
+.teal h2,
+.event-form span.teal {
+	color:#13a89e;
+}
+#home .tab.teal,
+#llistat-activitats .tab.teal{
+    border-color:#13a89e;
+}
+#home .tabs li.teal:hover,
+#llistat-activitats .tabs li.teal:hover,
+#home .tabs li.teal.active,
+#llistat-activitats .tabs li.teal.active,
+.teal .tab-description {
+    background:#13a89e;
+}
+.teal .activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco-mini_tcm64-19619.png") no-repeat scroll 0 -94px;
+}
+.teal .activities-items-column .activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco-mini_tcm64-19619.png") no-repeat scroll 16px -94px; /* tariro */
+}
+.teal .large-activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco_tcm64-16970.png") no-repeat scroll 0 -357px;
+}
+.teal ul#activitats h2 a.active { /* tariro */
+	background: url("/cibernarium/images/cat/panel-arrow-on_tcm64-16966.png") no-repeat 0 -100px;
+	color:#13a89e;
+}
+
+/*------ Pink - Activitats per Experts ----------------------------- */
+.pink h1,
+.pink h2,
+.event-form span.pink {
+	color:#F059AE;
+}
+#home .tab.pink,
+#llistat-activitats .tab.pink{
+    border-color:#F059AE;
+}
+#home .tabs li.pink:hover,
+#llistat-activitats .tabs li.pink:hover,
+#home .tabs li.pink.active,
+#llistat-activitats .tabs li.pink.active,
+.pink .tab-description {
+    background:#F059AE;
+}
+.pink .activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco-mini_tcm64-19619.png") no-repeat scroll 0 -184px;
+}
+.pink .activities-items-column .activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco-mini_tcm64-19619.png") no-repeat scroll 16px -184px; /* tariro */
+}
+.pink .large-activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco_tcm64-16970.png") no-repeat scroll 0 -459px;
+}
+.pink ul#activitats h2 a.active { /* tariro */
+	background: url("/cibernarium/images/cat/panel-arrow-on_tcm64-16966.png") no-repeat 0 -200px;
+	color:#F059AE;
+}
+/*------ Green - Jornades i Congressos ------------------------------*/
+.green h1,
+.green h2,
+.event-form span.green {
+	color:#A7CF42;
+}
+#home .tab.green,
+#llistat-activitats .tab.green {
+    border-color:#A7CF42;
+}
+#home .tabs li.green:hover,
+#llistat-activitats .tabs li.green:hover,
+#home .tabs li.green.active,
+#llistat-activitats .tabs li.green.active,
+.green .tab-description {
+    background:#A7CF42;
+}
+.green .activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco-mini_tcm64-19619.png") no-repeat scroll 0 -274px;
+}
+.green .activities-items-column .activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco-mini_tcm64-19619.png") no-repeat scroll 16px -274px; /* tariro */
+}
+.green .large-activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco_tcm64-16970.png") no-repeat scroll 0 -561px;
+}
+.green ul#activitats h2 a.active { /* tariro */
+	background: url("/cibernarium/images/cat/panel-arrow-on_tcm64-16966.png") no-repeat 0 -300px;
+	color:#A7CF42;
+}
+/*------ Lime - Formació d'iniciació --------------------------------*/
+.lime h1,
+.lime h2,
+.event-form span.lime {
+	color:#D7D721;
+}
+#home .tab.lime,
+#llistat-activitats .tab.lime{
+    border-color:#D7D721;
+}
+#home .tabs li.lime:hover,
+#llistat-activitats .tabs li.lime:hover,
+#home .tabs li.lime.active,
+#llistat-activitats .tabs li.lime.active,
+.lime .tab-description {
+    background:#D7D721;
+}
+.lime .activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco-mini_tcm64-19619.png") no-repeat scroll 0 -364px;
+}
+.lime .activities-items-column .activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco-mini_tcm64-19619.png") no-repeat scroll 16px -364px; /* tariro */
+}
+.lime .large-activity-id {
+    background:url("/cibernarium/images/cat/sprite-deco_tcm64-16970.png") no-repeat scroll 0 -663px;
+}
+.lime ul#activitats h2 a.active { /* tariro */
+	background: url("/cibernarium/images/cat/panel-arrow-on_tcm64-16966.png") no-repeat 0 -400px;
+	color:#D7D721;	
+}
+
+
+
+#home .tabs li.active,
+#llistat-activitats .tabs li.active {
+    background:#CA0083;
+}

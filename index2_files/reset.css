@@ -1,0 +1,60 @@
+/*                                                                                               Setup
+------------------------------------------------------------------------------------------------------
+*/
+* { 
+	padding: 0; 
+	margin: 0;
+}
+
+*:first-child+html .clearfix {
+	zoom:1; /* IE7 debug */ 
+}
+.clearfix:before, .clearfix:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix:after {
+	clear: both;
+}
+
+@font-face {
+	font-family: 'Greyscale';
+	src: url('fonts/greyscale_basic_bold-webfont.eot');
+	src: url('fonts/greyscale_basic_bold-webfont.eot@iefix.html') format('eot'),
+         url('fonts/greyscale_basic_bold-webfont.woff') format('woff'),
+         url('fonts/greyscale_basic_bold-webfont.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Greyscale';
+	src: url('fonts/greyscale_basic_bold_italic-webfont.eot');
+	src: url('fonts/greyscale_basic_bold_italic-webfont.eot@iefix.html') format('eot'),
+         url('fonts/greyscale_basic_bold_italic-webfont.woff') format('woff'),
+         url('fonts/greyscale_basic_bold_italic-webfont.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Greyscale';
+	src: url('fonts/greyscale_basic_regular-webfont.eot');
+	src: url('fonts/greyscale_basic_regular-webfont.eot@iefix.html') format('eot'),
+         url('fonts/greyscale_basic_regular-webfont.woff') format('woff'),
+         url('fonts/greyscale_basic_regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Greyscale';
+	src: url('fonts/greyscale_basic_regular_italic-webfont.eot');
+	src: url('fonts/greyscale_basic_regular_italic-webfont.eot@iefix.html') format('eot'),
+         url('fonts/greyscale_basic_regular_italic-webfont.woff') format('woff'),
+         url('fonts/greyscale_basic_regular_italic-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
